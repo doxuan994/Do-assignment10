@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic');
+@import url('https://fonts.googleapis.com/css?family=Felipa');
+
+body {
+
+    font-size: 16px;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0px 0px 10px 40px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-family: 'Gentium Book Basic', serif;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    color: #222;
+}
+
+a:hover {
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    color: #6f070e;
+}
+
+.intro a {
+    /* Appied for a fancy scale up transform effect on mouse hover */
+    display: block;
+}
+
+.intro a:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+
+p {
+    font-family: 'Gentium Book Basic', serif;
+    line-height: 1.8;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Felipa', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    line-height: 1.8;
+}
+
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #6f070e;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+span.emphasis {
+    font-style: italic;
+}
+span.underline {
+    text-decoration: underline;
+}
+span.bold {
+    font-weight: bold;
+}
+span.italic {
+    font-style: italic;
+}
+
+
+#main-header-container img {
+    width: 600px;
+}
+
+.charlesdickenspic {
+    width: 300px;
+}
