@@ -107,3 +107,14 @@ span.italic {
 .charlesdickenspic {
     width: 300px;
 }
+
+/*------------------------------------------------------------------------------
+FOOTER
+------------------------------------------------------------------------------*/
+.footer-wrapper {
+    background-color: #eee;
+    padding: 10px;
+}
+.footer-wrapper span {
+    float: right;
+}
